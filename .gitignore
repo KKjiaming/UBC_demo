@@ -1,0 +1,76 @@
+# Keep repository metadata files, ignore other local dotfiles by default.
+.*
+!.gitignore
+!.gitattributes
+!.github/
+!.github/**
+
+# Python / notebook caches
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and package installs
+.python_packages/
+.venv/
+venv/
+env/
+.conda/
+
+# Local runtime/config files
+.config/
+.kaggle/
+.matplotlib/
+.jupyter_config/
+.jupyter_data/
+.jupyter_runtime/
+.env
+.env.*
+
+# Data, model weights and generated artifacts
+dataset/
+save/
+outputs/
+logs/
+wandb/
+runs/
+lightning_logs/
+
+# Large archives and model artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# Training / inference outputs
+submission.csv
+*.log
+events.out.tfevents*
+
+# Local/private documents not needed by the demo README
+docs/*.docx
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
