@@ -4,6 +4,12 @@
 
 正式竞赛方案取得 **铜牌**，截图记录为 **1326 支队伍中排名第 76**，约 **Top 5.7%**。本目录中的代码不是完整复现最终提交系统，而是包含：
 
+<p align="center">
+  <img src="docs/certification_redacted.png" width="520" alt="Kaggle bronze certificate, redacted">
+</p>
+
+> 证书图已对个人姓名和签名区域打码，仅保留比赛、名次和奖牌信息。
+
 - 一个可运行的本地 mini demo。
 - 一个中间模型 `EfficientNetV2-L` 的训练流程。
 - 单 tile 和 WSI 级推理可视化。

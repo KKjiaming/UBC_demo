@@ -68,6 +68,7 @@ events.out.tfevents*
 
 # Local/private documents not needed by the demo README
 docs/*.docx
+docs/certification.png
 
 # OS / editor noise
 .DS_Store
